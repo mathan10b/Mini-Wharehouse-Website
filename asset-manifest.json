@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mini-Wharehouse-Website/static/css/main.6cb95a3d.css",
-    "main.js": "/Mini-Wharehouse-Website/static/js/main.d81429f3.js",
+    "main.js": "/Mini-Wharehouse-Website/static/js/main.b7a37bc6.js",
     "index.html": "/Mini-Wharehouse-Website/index.html",
     "main.6cb95a3d.css.map": "/Mini-Wharehouse-Website/static/css/main.6cb95a3d.css.map",
-    "main.d81429f3.js.map": "/Mini-Wharehouse-Website/static/js/main.d81429f3.js.map"
+    "main.b7a37bc6.js.map": "/Mini-Wharehouse-Website/static/js/main.b7a37bc6.js.map"
   },
   "entrypoints": [
     "static/css/main.6cb95a3d.css",
-    "static/js/main.d81429f3.js"
+    "static/js/main.b7a37bc6.js"
   ]
 }
