@@ -1,0 +1,44 @@
+{
+  "name": "warehouse-inventory-system",
+  "version": "1.0.0",
+  "description": "Full-stack warehouse inventory management system",
+  "private": true,
+  "homepage": "https://mathan10b.github.io/Mini-Wharehouse-Website",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd warehouse-backend && npm install && cd ../warehouse-frontend && npm install",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd warehouse-backend && npm start",
+    "start:frontend": "cd warehouse-frontend && npm start",
+    "build": "cd warehouse-frontend && npm run build",
+    "build:all": "cd warehouse-backend && npm install && cd ../warehouse-frontend && npm install && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d warehouse-frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "warehouse",
+    "inventory",
+    "management",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "author": "Mathan Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathan10b/Mini-Wharehouse-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathan10b/Mini-Wharehouse-Website/issues"
+  }
+}
