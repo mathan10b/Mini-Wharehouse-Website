@@ -6,7 +6,8 @@ import "./styles.css";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Mini-Wharehouse-Website">
     <App />
   </BrowserRouter>
 );
+
