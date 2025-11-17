@@ -1,0 +1,228 @@
+/* ---------- GLOBAL ---------- */
+body {
+  background: #f4f6fb;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.page-container {
+  width: 85%;
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1f1f1f;
+}
+
+/* ---------- NAVBAR FIX ---------- */
+nav {
+  background: white;
+  padding: 18px 30px !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ---------- CARDS ---------- */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+/* ---------- KPI CARDS ---------- */
+.kpi-row {
+  display: flex;
+  gap: 20px;
+}
+
+.kpi-card {
+  background: white;
+  padding: 22px;
+  width: 200px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.kpi-card h3 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: #4e73df;
+}
+
+.kpi-card p {
+  margin: 5px 0 0;
+  color: #333;
+  font-weight: 500;
+}
+
+/* ---------- GRAPHS ---------- */
+.graph-section {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.graph-card {
+  background: white;
+  flex: 1;
+  padding: 25px;
+  border-radius: 14px;
+  height: 380px; /* Reduced graph size */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.06);
+}
+
+/* ---------- FORMS ---------- */
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+  font-size: 16px;
+  min-width: 240px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.4);
+}
+
+button {
+  padding: 12px 25px;
+  background: #4e73df;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+button:hover {
+  background: #3552c7;
+}
+
+/* ---------- SEARCH AREA ---------- */
+.row-between {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search {
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* ---------- TABLE ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+table th {
+  background: #eef3ff;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ---------- BADGES ---------- */
+.badge-low {
+  background: #dc3545;
+  padding: 7px 14px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-ok {
+  background: #28a745;
+  padding: 7px 14px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ---------- BUTTONS ---------- */
+.del-btn {
+  background: #dc3545;
+  border-radius: 8px;
+  padding: 8px 18px;
+}
+
+.del-btn:hover {
+  background: #b52934;
+}
+
+.pdf-btn {
+  background: #1cc88a;
+  padding: 10px 20px;
+}
+
+.pdf-btn:hover {
+  background: #159c6b;
+}
+
+/* ---------- EMPTY PAGE MESSAGE ---------- */
+.empty-message {
+  text-align: center;
+  padding: 70px;
+  font-size: 20px;
+  color: #777;
+  font-weight: 500;
+}
+
+/* ---------- SUGGESTIONS ---------- */
+.suggestion-item {
+  padding: 15px 0;
+  font-size: 17px;
+  border-bottom: 1px solid #eee;
+}
+
+.row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.badge-low {
+  background: #dc3545;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+}
+
+.badge-ok {
+  background: #28a745;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+}
